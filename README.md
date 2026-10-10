@@ -86,4 +86,4 @@ Request structures follow the [Econt OpenAPI specification](https://ee.econt.com
 
 ## Licensing
 
-No license for the original plugin code has been selected. Public repository availability does not grant an open-source license.
+This plugin is licensed under the GNU General Public License, version 2 or (at your option) any later version (`GPL-2.0-or-later`). The full text of version 2 is in [`LICENSE`](LICENSE).
