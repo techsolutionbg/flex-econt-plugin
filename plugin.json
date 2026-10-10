@@ -1,0 +1,31 @@
+{
+  "id": "flex/econt",
+  "name": "Flex Econt",
+  "version": "0.1.2",
+  "description": "Доставка с Еконт за Flex Commerce — офис и адрес, test и live режим.",
+  "minimum_platform_version": "0.1.56",
+  "entrypoint": "Flex\\Econt\\EcontPlugin",
+  "autoload": {
+    "Flex\\Econt\\": "src/"
+  },
+  "permissions": [
+    "admin.ui",
+    "routes.admin",
+    "routes.public",
+    "frontend.assets"
+  ],
+  "frontend": {
+    "scripts": [
+      "assets/admin.js",
+      "assets/checkout.js"
+    ],
+    "styles": [
+      "assets/econt.css"
+    ]
+  },
+  "metadata": {
+    "status": "stable",
+    "storage": "database",
+    "requires": ["flex/commerce"]
+  }
+}

@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+/vendor/
+/node_modules/
+.phpunit.cache/
+*.sqlite
+*.sqlite3
+*.log
+*.zip
